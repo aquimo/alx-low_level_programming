@@ -1,8 +1,5 @@
-#include <stdlib.h>
-		
-#include "main.h"
-		
-
+#include <stdlib.h>		
+#include "main.h"		
 		
 /**
 		
@@ -22,13 +19,11 @@ int count_word(char *s)
 		
 		int flag, c, w;
 		
-
 		
 			flag = 0;
 		
 				w = 0;
 		
-
 		
 					for (c = 0; s[c] != '\0'; c++)
 		
@@ -50,7 +45,6 @@ int count_word(char *s)
 		
 													}
 		
-
 		
 						return (w);
 		
@@ -78,7 +72,6 @@ char **strtow(char *str)
 		
 	int i, k = 0, len = 0, words, c = 0, start, end;
 		
-
 		
 	while (*(str + len))
 		
@@ -90,7 +83,6 @@ char **strtow(char *str)
 		
 		return (NULL);
 		
-
 		
 	matrix = (char **) malloc(sizeof(char *) * (words + 1));
 		
@@ -98,7 +90,6 @@ char **strtow(char *str)
 		
 		return (NULL);
 		
-
 		
 	for (i = 0; i <= len; i++)
 		
@@ -142,11 +133,9 @@ char **strtow(char *str)
 		
 	}
 		
-
 		
 	matrix[k] = NULL;
 		
-
 		
 	return (matrix);
 		
