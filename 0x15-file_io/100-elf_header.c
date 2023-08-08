@@ -182,7 +182,8 @@ void print_osabi(unsigned char *e_ident)
 /**
  * print_abi - This function prints the aplication binary interface
  * version of any of the ELF header.
- * @e_ident: Is a pointer to any array thats contains the ELF AB Interface version.
+ * @e_ident: Is a pointer to any array thats contains the
+ * ELF AB Interface version.
  */
 void print_abi(unsigned char *e_ident)
 {
@@ -263,7 +264,7 @@ void close_elf(int elf)
 	}
 }
 
-/**
+ /**
  * main - Shows the inform thats is contained in the ELF header 
  * at the start of any ELF file.
  * @argc: The numbers of args thats is supplied to the program.
