@@ -116,7 +116,8 @@ void print_data(unsigned char *e_ident)
 /**
  *  * print_version - Prints the version of any ELF header.
  *   * @e_ident: Is a pointer to any array thats contains the ELF version .
- *    */
+ *    
+ */
 void print_version(unsigned char *e_ident)
 {
 	 printf(" Version: %d",
@@ -134,7 +135,8 @@ void print_version(unsigned char *e_ident)
 }
 
 /**
- * print_osabi - Must prints the Operational System/Binary version of any ELF header.
+ * print_osabi - Must prints the Operational System/Binary version 
+ * of any ELF header.
  * @e_ident: is the pointer to the array thats contains the ELF version.
  */
 void print_osabi(unsigned char *e_ident)
@@ -179,8 +181,8 @@ void print_osabi(unsigned char *e_ident)
 }
 
 /**
- * print_abi - This function prints the aplication binary interface
- * version of any of the ELF header.
+ * print_abi - This function prints the aplication binary 
+ * interface version of any of the ELF header.
  * @e_ident: Is a pointer to any array thats contains the ELF AB Interface version.
  */
 void print_abi(unsigned char *e_ident)
